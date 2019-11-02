@@ -34,7 +34,7 @@ int main()
 		}
 	}
 
-	const auto overlapping_area= std::count_if(visited_count.begin(), visited_count.end(), [](const auto &p)
+	const auto overlapping_area = std::count_if(visited_count.begin(), visited_count.end(), [](const auto &p)
 	{
 		return p.second >= 2;
 	});
